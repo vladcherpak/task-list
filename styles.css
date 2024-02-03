@@ -23,7 +23,7 @@ button{
 
 .input{
     padding: 4px;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 ul{
@@ -38,6 +38,10 @@ p{
     padding-left: 20px;
     padding-right: 20px;
     flex-grow: 1;
+}
+
+p::first-letter{
+    text-transform: uppercase;
 }
 
 li{
