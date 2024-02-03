@@ -1,0 +1,42 @@
+
+
+button{
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 10px;  
+}
+
+.btn{
+    padding: 5px;
+}
+
+ul{
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+p{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-grow: 1;
+}
+
+li{
+    display: flex;
+    border: 1px solid teal;
+    margin-bottom: 5px;
+    align-items: center;
+    padding-right: 20px;
+}
+
+
+.ckeckbox{
+    width: 15px;
+    height: 15px;
+
+}
+.completed{
+    text-decoration: line-through red;
+}
+
