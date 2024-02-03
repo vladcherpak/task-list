@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 button{
     background-color: aqua;
@@ -13,6 +17,8 @@ button{
 ul{
     margin-bottom: 5px;
     list-style: none;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 p{
@@ -30,13 +36,26 @@ li{
     padding-right: 20px;
 }
 
+h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+form{
+    justify-content: center;
+    display: flex;
+}
 
 .ckeckbox{
     width: 15px;
-    height: 15px;
-
+    height: 15px;margin-left: 5px;
 }
 .completed{
     text-decoration: line-through red;
 }
 
+.libtn{
+    padding: 4px;
+}
