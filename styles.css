@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
 button{
     background-color: aqua;
     border-radius: 5px;
@@ -12,6 +19,11 @@ button{
 
 .btn{
     padding: 5px;
+}
+
+.input{
+    padding: 4px;
+    font-size: 14px;
 }
 
 ul{
